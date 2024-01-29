@@ -1,0 +1,39 @@
+PODS:
+  - Capacitor (5.6.0):
+    - CapacitorCordova
+  - CapacitorCordova (5.6.0)
+  - CapacitorDataStorageSqlite (5.0.1):
+    - Capacitor
+    - SQLCipher
+  - SQLCipher (4.5.6):
+    - SQLCipher/standard (= 4.5.6)
+  - SQLCipher/common (4.5.6)
+  - SQLCipher/standard (4.5.6):
+    - SQLCipher/common
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - CapacitorDataStorageSqlite (from `../../node_modules/capacitor-data-storage-sqlite`)
+
+SPEC REPOS:
+  trunk:
+    - SQLCipher
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorDataStorageSqlite:
+    :path: "../../node_modules/capacitor-data-storage-sqlite"
+
+SPEC CHECKSUMS:
+  Capacitor: ebfc16cdb8116d04c101686b080342872da42d43
+  CapacitorCordova: 931b48fcdbc9bc985fc2f16cec9f77c794a27729
+  CapacitorDataStorageSqlite: 0c6e88caca0ce9a6f2f9e1747b35e11992a82ebc
+  SQLCipher: 838309284f29953a28ad2e81d87d55ea6b7c74fd
+
+PODFILE CHECKSUM: f235106c096db73ad2528c25fd997c438954fff1
+
+COCOAPODS: 1.14.3
