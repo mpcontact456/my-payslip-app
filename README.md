@@ -1,4 +1,14 @@
-# Getting Started with my payslip App
+# Getting Started with My Payslip App
+
+The application contains
+Two Views: View Payslips:
+• Display a list of payslips on the main screen.
+• Each list item should show the period (from date to date).
+• Clicking on an item should redirect to the Individual payslip details page
+Individual payslip details page
+• Should show the entire payslips information, id, and period (from date to date). 
+• A download payslip button the download should initiate the download of the file associated with the selected payslip Bonus Points (Optional):
+• For native platforms, download file task using a Capacitor plugin.
 
 Below is a basic structure for your React, Capacitor, and TypeScript application. Note that this is a simplified example, and may want to enhance it based on your specific needs.
 
@@ -15,7 +25,7 @@ my-payslip-app/
 
 # Setup
 
-Follow the 'Install the Ionic CLI' section.
+Follow the 'Install the Ionic CLI - https://ionicframework.com/docs/installation/cli' section.
 
 In your IDE, clone the repo https://github.com/mpcontact456/my-payslip-app.git into a local directory on your machine.
 
@@ -23,13 +33,6 @@ Inside the directory of your cloned project, install the node packages and build
 
 ### `npm install`
 ### `npm run build`
-
-Update the Capacitor settings, then open the project on Android Studio
-
-### `npx cap update`
-### `ionic capacitor open android`
-
-Deploy the app to an Android device
 
 # Web - In the project directory, you can run:
 
@@ -41,12 +44,23 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm run build`
+# Sync your web code to your native project:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Once you've created your native projects, you can sync your web application to your native project by running the following command.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `npx cap sync`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+# To run the project on a device or simulator, run:
+
+### `npm start`
+
+### `npx cap open ios` # Open Xcode for iOS
+or
+### `npx cap run ios`
+
+### `npx cap open android` # Open Android Studio for Android
+or
+### `npx cap run android`
+
+
