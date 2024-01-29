@@ -1,14 +1,14 @@
 # Getting Started with My Payslip App
 
 The application contains
-Two Views: View Payslips:
-• Display a list of payslips on the main screen.
-• Each list item should show the period (from date to date).
-• Clicking on an item should redirect to the Individual payslip details page
-Individual payslip details page
-• Should show the entire payslips information, id, and period (from date to date). 
-• A download payslip button the download should initiate the download of the file associated with the selected payslip Bonus Points (Optional):
-• For native platforms, download file task using a Capacitor plugin.
+
+1. Display a list of payslips on the main screen.
+2. Each list item should show the period (from date to date).
+3. Clicking on an item should redirect to the Individual payslip details page
+4. Should show the entire payslips information, id, and period (from date to date).
+5. Download payslip button the download should initiate the download of the file associated with the selected payslip
+6. For native platforms, download file task using a Capacitor plugin.(Download file task using a Capacitor plugin for both Android and iOS. Capacitor plugin called FileDownload and then use it in a React component)
+7. The handleDownload function creates an <a> element, sets its href attribute to the payslip file URL, and triggers a click event on it. This approach essentially simulates a user clicking on a link to download the file.
 
 Below is a basic structure for your React, Capacitor, and TypeScript application. Note that this is a simplified example, and may want to enhance it based on your specific needs.
 
@@ -58,6 +58,7 @@ Once you've created your native projects, you can sync your web application to y
 ### `npx cap open ios` # Open Xcode for iOS
 or
 ### `npx cap run ios`
+
 
 ### `npx cap open android` # Open Android Studio for Android
 or
