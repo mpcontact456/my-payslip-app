@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Getting Started with my payslip App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Below is a basic structure for your React, Capacitor, and TypeScript application. Note that this is a simplified example, and may want to enhance it based on your specific needs.
+
+my-payslip-app/
+|-- src/
+|   |-- components/
+|       |-- PayslipList.tsx
+|       |-- PayslipDetails.tsx
+|   |-- App.tsx
+|   |-- index.tsx
+|-- capacitor.config.json
+|-- package.json
+|-- tsconfig.json
 
 ## Available Scripts
 
